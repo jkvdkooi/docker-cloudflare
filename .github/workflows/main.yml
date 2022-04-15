@@ -38,7 +38,7 @@ jobs:
         id: meta
         uses: docker/metadata-action@v3
         with:
-          images: ghcr.io/joshuaavalon/cloudflare-ddns
+          images: ghcr.io/jkvdkooi/cloudflare-ddns
           tags: |
             type=sha
             type=ref,event=branch

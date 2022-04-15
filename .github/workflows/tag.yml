@@ -16,8 +16,8 @@ jobs:
         uses: docker/metadata-action@v3
         with:
           images: |
-            ghcr.io/joshuaavalon/cloudflare-ddns
-            docker.io/joshava/cloudflare-ddns
+            ghcr.io/jkvdkooi/cloudflare-ddns
+            docker.io/jkvdkooi/cloudflare-ddns
           tags: |
             type=schedule
             type=semver,pattern={{version}}
